@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUCHA LIBRE</title>
+    <style>
+        body {
+            background-color: #ffffff; /* Blanc */
+            color: #006847; /* Vert */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #006847;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #dc1c28; /* Rouge */
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #006847;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+    <script>
+    // Obtenez l'URL absolue de la page actuelle
+    var baseUrl = window.location.origin;
+
+    // Ajoutez le chemin relatif du formulaire à l'URL de base
+    var formAction = baseUrl + "/file:///C:/Users/Kenny/OneDrive/Bureau/site.html";
+
+    // Mettez à jour l'attribut action du formulaire
+    document.getElementById("votre-formulaire").action = formAction;
+</script>
+
+<form id="votre-formulaire" method="post">
+    <!-- ... autres champs du formulaire ... -->
+</form>
+</head>
+<body>
+
+    <header>
+        <h1>LUCHA LIBRE</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+   
+   <section id="accueil">
+        <h2>HOLA LUCHOR</h2>
+        <p>EN EL CAUTIVADOR UNIVERSO DE LA LUCHA LIBRE MEXICANA, LOS LUCHADORES ENMASCARADOS SE DESENVUELVEN EN EL RING CON UNA GRACIA ACROBÁTICA, FUSIONANDO HÁBILMENTE LA TRADICIÓN, EL ESPECTÁCULO Y EL LEGADO CULTURAL. SUMÉRGETE EN LA EMOCIONANTE EXCITACIÓN DE ESTE MUNDO ÚNICO DONDE EL ARTE DEL COMBATE SE UNE A LA TEATRALIDAD, CREANDO UNA EXPERIENCIA ESPECTACULAR Y EMBLEMÁTICA DE MÉXICO. ¡INSCRÍBETE PARA UNIRTE A LA AVENTURA</p>
+    
+    </section>
+    <section id="Ficha de inscripcion">
+        <h2>Fiche d'inscription</h2>
+        <form>
+            <label for="nom">Apellido :</label>
+            <input type="text" id="nom" name="nom" required>
+        <br>
+        <br>
+            <label for="prenom">Nombre :</label>
+            <input type="text" id="prenom" name="prenom" required>
+        <br>
+        <br>
+            <label for="date-naissance">Fecha de nacimiento:</label>
+            <input type="date" id="date-naissance" name="date-naissance" required>
+        <br>
+        <br>
+            <input type="submit" value="Enviar">
+
+            <section id="accueil">
+        <h2>NOS VEMOS PRONTO</h2>
+        <p>LA LUCHA LIBRE, UN MUNDO FASCINANTE DONDE LA BRAVURA, LA ADRENALINA Y LA TRADICIÓN SE ENCUENTRAN EN EL RING, CREANDO UN ESPECTÁCULO ÚNICO QUE CAPTURA EL ESPÍRITU DE MÉXICO. ¡SUBE AL RING PARA CONVERTIRTE EN EL PRÓXIMO CAMPEÓN</p>
+        
+        </form>
+
+    <footer>
+        <p>&copy; 2023 LUCHA LIBRE. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
